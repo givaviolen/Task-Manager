@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Task Manager</h1>
+
+    <div class="form">
+      <input type="text" id="task-name" placeholder="Nama tugas">
+
+      <select id="task-priority">
+        <option value="Tinggi">Tinggi</option>
+        <option value="Sedang">Sedang</option>
+        <option value="Rendah">Rendah</option>
+      </select>
+
+      <input type="date" id="task-deadline">
+
+      <button id="add-btn" onclick="addTask()">Tambah</button>
+    </div>
+
+    <ul id="task-list"></ul>
+  </main>
+
+  <script src="JS/app.js"></script>
+</body>
+</html>
