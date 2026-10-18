@@ -1,43 +1,30 @@
-# [Nama Program] — Tugas I PABWE
+# Task Manager Web App — Tugas I PABWE
 
-Tugas Individu Mata Kuliah 11S3133 Pengembangan Aplikasi Berbasis Web
-Dibuat dengan bantuan AI generatif (Claude) sebagai asisten pemrograman.
+Repositori ini dikembangkan untuk memenuhi Tugas I Mata Kuliah **11S3133 Pengembangan Aplikasi Berbasis Web** di Institut Teknologi Del. Proyek ini mengimplementasikan aplikasi *Task Manager* sederhana dengan memanfaatkan AI generatif (Claude) sebagai asisten pemrograman secara iteratif.
 
-**Nama:** Giva Violen Pardede
-**NIM:** 11S24054
-**Dosen:** [Nama Dosen]
+## Identitas Pembuat
+* **Nama:** Giva Violen Pardede
+* **NIM:** 11S24054
+* **Program Studi:** S1 Informatika, Institut Teknologi Del
 
-## Deskripsi
-[2–3 kalimat: apa program ini dan masalah apa yang diselesaikan.]
+## Deskripsi Program
+Aplikasi *Task Manager* berbasis web ini dirancang untuk membantu pengguna mengelola daftar tugas harian, lengkap dengan fitur pengaturan prioritas (Tinggi, Sedang, Rendah), tenggat waktu (*deadline*), penyimpanan lokal (`localStorage`) dengan penanganan galat, penanda otomatis untuk tugas yang terlambat, serta fitur centang selesai dan konfirmasi hapus.
 
-## Fitur
-- [Fitur 1]
-- [Fitur 2]
-- [Fitur 3]
+## Fitur Utama
+- **Manajemen Tugas:** Tambah, hapus, dan tandai selesai tugas harian.
+- **Validasi Input:** Pencegahan input nama tugas kosong atau hanya spasi, serta pembersihan data secara aman.
+- **Prioritas & Urutan Otomatis:** Tugas diurutkan secara otomatis berdasarkan tingkat prioritas dan *deadline* terdekat.
+- **Format Tanggal Lokal:** Menggunakan format bahasa Indonesia (`Intl.DateTimeFormat`) dengan penanganan zona waktu lokal.
+- **Persistensi Data:** Data tersimpan di `localStorage` dengan penanganan galat (*error handling*).
+- **Keamanan:** Memitigasi celah keamanan *Cross-Site Scripting* (XSS) dengan menggunakan `textContent` alih-alih `innerHTML`.
 
-## Teknologi
-HTML, CSS, JavaScript (vanilla) — [sesuaikan]
+## Teknologi yang Digunakan
+- HTML5 (Struktur)
+- CSS3 (Desain antarmuka)
+- JavaScript Vanilla / ES6+ (Logika Pemrograman & DOM Manipulation)
 
-## Cara Menjalankan
-1. Clone repo: `git clone https://github.com/[username]/[repo].git`
-2. Buka `src/index.html` di browser.
-
-## Struktur Proyek
-[Salin pohon folder di atas]
-
-## Dokumentasi Proses Pengembangan dengan AI
-| Iterasi | Fokus | Bug Ditemukan | Perbaikan |
-|---------|-------|---------------|-----------|
-| 1 | Struktur dasar | - | - |
-| 2 | Fitur inti | [isi] | [isi] |
-| 3 | Penyempurnaan | [isi] | [isi] |
-
-- Proposal lengkap: [`docs/proposal.pdf`](docs/proposal.pdf)
-- Log prompt: [`docs/prompts-log.md`](docs/prompts-log.md)
-- Tangkapan layar: [`docs/screenshots/`](docs/screenshots/)
-
-## Refleksi Singkat
-[3–4 kalimat: apa yang dipelajari tentang bekerja dengan AI.]
-
-## Akses
-Dosen dan asisten telah ditambahkan sebagai collaborator.
+## Cara Menjalankan Proyek
+1. Clone repositori:
+   ```bash
+   git clone [https://github.com/](https://github.com/)givaviolen/Task-Manager.git
+   cd Task-Manager
