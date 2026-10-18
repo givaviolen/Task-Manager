@@ -25,6 +25,35 @@ Aplikasi *Task Manager* berbasis web ini dirancang untuk membantu pengguna menge
 
 ## Cara Menjalankan Proyek
 1. Clone repositori:
-   ```bash
+```bash
    git clone [https://github.com/](https://github.com/)givaviolen/Task-Manager.git
    cd Task-Manager
+```
+2. Buka `src/index.html` di peramban (Chrome, Firefox, Edge, dll.). Tidak perlu instalasi.
+
+## Struktur Direktori
+```
+<nama-repo>/
+├── README.md
+├── CHANGELOG.md
+├── src/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js
+└── docs/
+    ├── proposal.pdf
+    ├── prompts-log.md
+    └── screenshots/
+```
+
+## Ringkasan Iterasi Pengembangan
+| Iterasi | Fokus Utama | Status |
+|---|---|---|
+| 1 | Kode awal dari prompt sederhana; celah (XSS, validasi, data hilang saat refresh) sengaja dipertahankan untuk diuji | Selesai |
+| 2 | Validasi input, reset formulir, penyimpanan `localStorage` dengan penanganan galat, perbaikan XSS (`textContent`), tombol hapus | Selesai |
+| 3 | Pengurutan otomatis, format tanggal Indonesia, tandai selesai, konfirmasi hapus, penanda deadline terlambat | Selesai |
+
+## Catatan Penggunaan AI
+Aplikasi ini dikembangkan dengan bantuan Claude sebagai asisten pemrograman. Seluruh prompt dicatat di [`docs/prompts-log.md`](docs/prompts-log.md), dan seluruh kode diuji sendiri oleh penulis (skenario uji T1 sampai T25, lihat [`docs/proposal.pdf`](docs/proposal.pdf)).
