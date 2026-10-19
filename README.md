@@ -33,7 +33,7 @@ Aplikasi *Task Manager* berbasis web ini dirancang untuk membantu pengguna menge
 
 ## Struktur Direktori
 ```
-<nama-repo>/
+Taks-Manager/
 ├── README.md
 ├── CHANGELOG.md
 ├── src/
@@ -43,7 +43,7 @@ Aplikasi *Task Manager* berbasis web ini dirancang untuk membantu pengguna menge
 │   └── js/
 │       └── app.js
 └── docs/
-    ├── proposal.pdf
+    ├── 11S24054_tugas-1.pdf
     ├── prompts-log.md
     └── screenshots/
 ```
