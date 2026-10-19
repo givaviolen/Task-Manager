@@ -16,7 +16,6 @@ Dokumen ini mencatat prompt yang saya berikan kepada Claude selama pengembangan 
 | P3 | Iterasi 3 | Menambah pengurutan, format tanggal, tandai selesai, konfirmasi hapus, penanda terlambat | Sangat baik | Kode Iterasi 3, penjelasan sorting dan `Date`, uji T14 sampai T25 | [isi nama berkas] |
 | P4 | Dokumentasi | Draf narasi Bab 1, 2, 7, 8 dan checklist GitHub | Baik | Draf bab dan checklist | [isi nama berkas] |
 | P5 | Repositori | Meninjau draf `README.md` | Baik | Daftar koreksi README | [isi nama berkas] |
-| P6 | Repositori | Meminta isi `prompts-log.md` dan `CHANGELOG.md` | Cukup | Dokumen ini dan `CHANGELOG.md` | [isi nama berkas] |
 
 ## Rincian
 

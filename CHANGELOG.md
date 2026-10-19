@@ -18,7 +18,7 @@ Semua perubahan penting pada proyek *Task Manager* dicatat di sini. Format menga
 - Deadline yang sudah lewat tetap diterima saat menambah tugas (hanya diberi penanda).
 - Tugas yang sudah selesai tetap tampil di posisi prioritasnya.
 
-## [0.3.0] - [isi tanggal] — Iterasi 3: Penyempurnaan
+## [0.3.0] - 18 Oktober 2026 — Iterasi 3: Penyempurnaan
 
 ### Ditambahkan
 - Pengurutan otomatis: prioritas Tinggi, Sedang, Rendah, lalu deadline terdekat (`compareTasks`).
@@ -40,7 +40,7 @@ Semua perubahan penting pada proyek *Task Manager* dicatat di sini. Format menga
 ### Pengujian
 - T14 sampai T25 dijalankan dan lolos.
 
-## [0.2.0] - [isi tanggal] — Iterasi 2: Perbaikan Bug dan Keamanan
+## [0.2.0] - 18 Oktober 2026 — Iterasi 2: Perbaikan Bug dan Keamanan
 
 ### Ditambahkan
 - Validasi masukan: nama tidak boleh kosong atau hanya spasi, deadline wajib diisi, pesan kesalahan tampil di halaman.
@@ -66,7 +66,7 @@ Semua perubahan penting pada proyek *Task Manager* dicatat di sini. Format menga
 ### Pengujian
 - T11 sampai T13 dijalankan dan lolos.
 
-## [0.1.0] - [isi tanggal] — Iterasi 1: Versi Awal
+## [0.1.0] - 18 Oktober 2026 — Iterasi 1: Versi Awal
 
 ### Ditambahkan
 - Formulir dengan kolom nama tugas, prioritas (Tinggi, Sedang, Rendah), deadline, dan tombol Tambah.
